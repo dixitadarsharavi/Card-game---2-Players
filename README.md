@@ -23,6 +23,10 @@ A command line tool that demonstrates a card game between 2 players.
 ``` sh      
  chmod 755 install.sh
 ```
+- Run the script file using the below command,
+``` sh      
+ ./install.sh
+```
 - Run the below command to execute cardgamecli tool from terminal
 ``` sh      
  cardgamecli
@@ -32,4 +36,9 @@ Unit Test: In order to carry out unit tests, execute the below command
 
 ``` sh
 python3 -m  unittest
+```
+
+Lastly, to uninstall the the CLI tool use this command,
+``` sh      
+pip3 uninstall cardgamecli
 ```
